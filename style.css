@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+}
+.container{
+    width:100%;
+    background-color:bisque;
+}
+
+.top-sec{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://images.pexels.com/photos/6284232/pexels-photo-6284232.jpeg?auto=compress&cs=tinysrgb&w=10000);
+    background-size:cover;
+    align-content: center;
+    color: white;
+}
+.hero-text{
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+  align-items:center;
+}
+.input-form{
+    display:flex;
+    flex-direction: row;
+    gap:8px;
+    color: white;
+}
+.input-form .input-text {
+    /* width:100%; */
+    height:4vh;
+    /* max-width:250px; */
+    padding:4px 30px;
+    background-color: transparent;
+    border-radius:45px;
+    border:1px solid white;
+}
+.input-button{
+    height:5vh;
+    
+    padding:4px 30px;
+    background-color: transparent;
+    border-radius:45px;
+    border:1px solid white;
+    color: white;
+    
+    
+}
+.input-text::placeholder{
+    color:white;
+    background-color: transparent;
+}
+
+.input-text2{
+    background-color: transparent;
+    color: white;
+    align-items: center;
+
+}
+
+
+.second-hero{
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+    text-align: center;
+
+    
+    
+  
+}
+.second-left{
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/29436528/pexels-photo-29436528/free-photo-of-finnlink-ferry-cruising-on-open-sea-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=600);  
+    height: 40vh;
+    background-color: transparent;
+    align-content: center;
+}
+.second-right{
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/3769146/pexels-photo-3769146.jpeg?auto=compress&cs=tinysrgb&w=800);
+    height: 40vh;
+    background-color: transparent;
+    align-content: center;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+    width:100%;
+    margin: 4px 0;
+}
+.bottom-left{
+    background-image: url(https://images.pexels.com/photos/2115367/pexels-photo-2115367.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 100%;
+    height: 40vh;
+    align-content: center;
+}
+.bottom-mid{
+
+    background-image: url(https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 100%;
+    height: 40vh;
+    align-content: center;
+}
+.bottom-right{
+
+
+    background-image: url(https://images.pexels.com/photos/17346775/pexels-photo-17346775/free-photo-of-sunlit-roofs-of-buildings-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=600);
+    width: 100%;
+    height: 40vh;
+    align-content: center;
+}
+.star{
+    flex-direction: row;
+    display: flex;
+}
+.fa-star{
+    color: yellow;
+}
+.line{
+    width:8vw;
+    height:2px;
+    background-color: white;
+}
+
+.navbar-wrapper{
+    padding:12px 100px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    width:40px;
+    height:40px;
+}
+
+.menu_items {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+ }
+
+ .menu_items li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s;
+ }
+
+ .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .navbar{
+    width: 100%;
+    height: 8vh;
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: right;
+    padding: 0 20px; */
+    background-color:white;
+ }
+
+ 
+/* Hero Section */
+.hero {
+    background-image: url('./public/me.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(37, 3, 3);
+ }
+
+ .hero-text {
+    text-align:left;
+ }
+
+ .hero-text h1 {
+    font-size: 4rem;
+    /* Responsive font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+ }
